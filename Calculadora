@@ -11,6 +11,7 @@ def calculadora():
         resultado = numero1 - numero2
     elif operador == '*':
         resultado = numero1 * numero2
+        
     elif operador == '/':
         if numero2 != 0:
             resultado = numero1 / numero2
